@@ -1,0 +1,14 @@
+syntax = "proto3";
+package pb;
+
+option go_package = "github.com/Imomali1/gRPC/pcbook/pb";
+
+message CPU {
+  string brand = 1;
+  string name = 2;
+  uint32 number_cores = 3;
+  uint32 number_threads = 4;
+  double min_freq = 5;
+  double max_freq = 6;
+}
+
