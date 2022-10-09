@@ -1,6 +1,8 @@
 syntax = "proto3";
 package pb;
 
+import "memory_message.proto";
+
 option go_package = "github.com/Imomali1/gRPC/pcbook/pb";
 
 message CPU {
@@ -12,3 +14,10 @@ message CPU {
   double max_freq = 6;
 }
 
+message GPU {
+  string brand = 1;
+  string name = 2;
+  double min_freq = 3;
+  double max_freq = 4;
+  Memory memory = 5;
+}
