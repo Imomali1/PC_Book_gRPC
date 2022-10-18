@@ -1,27 +1,27 @@
 {
- "id": "43dc7e81-a26c-4f54-9c37-d554ae754a24",
- "brand": "Apple",
- "name": "M1 Pro",
+ "id": "2d83dc76-7aa7-4e8b-82a0-c32a77bf2f62",
+ "brand": "Lenovo",
+ "name": "ThinkPad",
  "cpu": {
   "brand": "AMD",
-  "name": "Ryzen 3 PRO 3242W",
-  "number_cores": 8,
-  "number_threads": 10,
-  "min_freq": 2.9259806833576074,
-  "max_freq": 7.6318246327961905
+  "name": "Ryzen 7 PRO 2700U",
+  "number_cores": 2,
+  "number_threads": 7,
+  "min_freq": 3.2297360045502277,
+  "max_freq": 7.697946235140133
  },
  "ram": {
-  "value": "35",
+  "value": "21",
   "unit": "GIGABYTE"
  },
  "gpus": [
   {
    "brand": "NVIDIA",
    "name": "GTX 1070",
-   "min_freq": 1.135458714060667,
-   "max_freq": 1.865209603961643,
+   "min_freq": 1.237413624608245,
+   "max_freq": 1.7708413978454507,
    "memory": {
-    "value": "6",
+    "value": "2",
     "unit": "GIGABYTE"
    }
   }
@@ -30,33 +30,33 @@
   {
    "driver": "SSD",
    "memory": {
-    "value": "441",
+    "value": "828",
     "unit": "GIGABYTE"
    }
   },
   {
    "driver": "HDD",
    "memory": {
-    "value": "1",
+    "value": "4",
     "unit": "TERABYTE"
    }
   }
  ],
  "screen": {
-  "size_inch": 15.041864,
+  "size_inch": 16.674282,
   "resolution": {
-   "width": 3674,
-   "height": 2067
+   "width": 4572,
+   "height": 2572
   },
-  "panel": "IPS",
+  "panel": "OLED",
   "multi_touch": true
  },
  "keyboard": {
   "layout": "AZERTY",
-  "backlit": false
+  "backlit": true
  },
- "weight_kg": 1.5248875516105223,
- "price_usd": 1183.8976536747243,
- "release_year": 2019,
- "updated_at": "2022-10-15T19:26:23.707962450Z"
+ "weight_kg": 2.8341103075267853,
+ "price_usd": 2269.4015888650347,
+ "release_year": 2018,
+ "updated_at": "2022-10-18T04:31:34.762540119Z"
 }

@@ -46,8 +46,3 @@ func (store *InMemoryLaptopStore) Save(laptop *pb.Laptop) error {
 	store.data[laptop.Id] = tmp
 	return nil
 }
-
-/*
-To deal with DB
-type DBLaptopStore struct {}
-*/
